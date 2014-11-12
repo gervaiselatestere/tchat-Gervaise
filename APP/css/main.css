@@ -1,0 +1,119 @@
+body {
+  /* Required padding for .navbar-fixed-top.
+     Remove if using .navbar-static-top.
+     Change if height of navigation changes. */
+    margin: 0;
+    padding: 0;
+    color: #4682B4;
+    height: 100%;
+    font-size: 1rem;
+}
+
+html{height: 100%;
+}
+
+#top {
+    background-color: #4682B4;
+    text-align: center;
+    color: #FFFFFF;
+    border-bottom: 0.2rem solid #4682B4;
+    border-radius: 0.5rem;
+    height: 10%;
+    position: relative;
+}
+
+#principal {
+    float: left;
+    width: 75%;
+
+    position: relative;
+    background-color: #87CEFA;
+    border-radius: 0.5rem;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    overflow:hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overflow : -moz-scrollbars-vertical;
+}
+
+#colonne {
+    float: left;
+    width: 22%;
+    height: 80%;
+    position: relative;
+    background-color: #87CEFA;
+    border-radius: 0.5rem;
+    margin: 0.2rem;
+    padding: 0.2rem;
+
+}
+
+.hauteur {
+    height:59%;
+    overflow:hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overflow : -moz-scrollbars-vertical;
+}
+
+
+#pied		{
+    position:absolute;
+    bottom: 0.1rem;
+    clear: both;
+    border-top:  0.2rem solid #4682B4;
+    width: 99%;
+    height:10%;
+    padding-top: 0.2rem;
+    background-color: #4682B4;
+    color: #FFFFFF;
+    border-bottom: 0.2rem solid #4682B4;
+    border-radius: 0.5rem;
+
+}
+
+#pied	p	{
+    text-align: right;
+    padding-right: 5rem;
+}
+
+input {    padding-left: 1rem;}
+
+#messageValue{    width: 65%;
+           padding-left: 0.5rem;}
+
+#userNickname{    width: 20%;
+
+    margin-left: 5rem;
+   margin-top: 5rem;
+}
+
+.petit{ width: 20%; }
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 3rem;
+}
+
+h2 {
+    color: #4682B4;
+    text-align: center;
+    font-size: 2rem;
+
+}
+li { list-style: none;
+padding-left: 1rem;
+padding-bottom: 0.1rem;}
+
+.article {
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
+    margin: 0.2rem;
+    padding: 0.2rem;
+
+}
+#show {
+   height: 90%;
+    display: none;}
